@@ -1,10 +1,16 @@
-﻿<Window x:Class="UI.TaskListView"
+<Window x:Class="UI.TaskListView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <DataGrid ItemsSource="{Binding AllTasks}">
-            
+        <DataGrid ItemsSource="{Binding AllTasks}" AutoGenerateColumns="false">
+           <DataGrid.Columns>
+               <DataGridTextColumn Header="ID" Binding="{Binding ID}"></DataGridTextColumn>
+               <DataGridTextColumn Header="할 일" Binding="{Binding Description}"></DataGridTextColumn>
+               <DataGridTextColumn Header="우선순위" Binding="{Binding Priority}"></DataGridTextColumn>
+               <DataGridTextColumn Header="날짜" Binding="{Binding DueDate}"></DataGridTextColumn>
+               <DataGridTextColumn Header="완료여부" Binding="{Binding Complete}"></DataGridTextColumn>
+           </DataGrid.Columns> 
         </DataGrid>
     </Grid>
 </Window>
