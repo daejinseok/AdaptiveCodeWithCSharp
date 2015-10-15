@@ -52,15 +52,17 @@ Code samples to accompany the book Adaptive Code Via C#, Korean Edition
 | 예제 4-21, 4-22 | ch4-testing-account-not-found |
 | 예제 4-23, 4-24 | ch4-testing-account-method-throws |
 | 예제 4-25, 4-26 | ch4-testing-to-fix-bugs |
-| 예제 4-27, 4-28 | ch4-adding-setup-method |
-| 예제 4-29 | ch4-refactoring-base |
-| 예제 4-30 | h4-refactoring-replace-magic-numbers-with-constants |
-| 예제 4-31 ~ 4-33 | ch4-refactoring-creating-account-type-subclasses |
-| 예제 4-34, 4-35 | ch4-refacotring-replace-constructor-with-factory-method |
-| 예제 4-36, 4-37 | ch4-replace-constructor-with-factory-class |
-| 예제 4-38, 4-39 | ch4-new-account-type-reward |
-| 예제 4-40, 4-41 | ch4-new-account-type-standard |
-| 예제 4-42 ~ 4-44 | ch4-refactoring-replace-inheritance-with-delegation |
+| 예제 4-27 | ch4-adding-setup-method |
+| 예제 4-28 | ch4-refactoring-base |
+| 예제 4-29 | ch4-refactoring-replace-magic-numbers-with-constants |
+| 예제 4-30, 4-31 | ch4-refactoring-creating-account-type-subclasses |
+| 예제 4-32 ~ 4-34 | ch4-refacotring-replace-constructor-with-factory-method |
+| 예제 4-35, 4-36 | ch4-replace-constructor-with-factory-class |
+| 예제 4-37 | ch4-new-account-type-reward |
+| 예제 4-38, 39 |  |
+| 예제 4-40 | ch4-new-account-type-standard |
+| 예제 4-41 | |
+| 예제 4-42 ~ 4-43 | ch4-refactoring-replace-inheritance-with-delegation |
 
 #### 제5장 ####
 | 예제 코드 번호 | 소스 코드 경로 |
